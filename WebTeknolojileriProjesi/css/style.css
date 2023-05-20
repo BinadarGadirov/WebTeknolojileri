@@ -39,3 +39,117 @@
     background-size: cover;
     background-position: center;
 }
+.custom-loader3 {
+    width:120px;
+    height:20px;
+    border-radius: 20px;
+    background:
+     repeating-linear-gradient(135deg,#ff0000 0 10px,#ff0000 0 20px) left/0% 100%   no-repeat,
+     repeating-linear-gradient(135deg,#ffffff    0 10px,#ffffff    0 10px) left/100% 100%;
+    animation:p0 4s infinite;
+  }
+  @keyframes p0 {
+      100% {background-size:100% 100%}
+  }
+.custom-loader {
+    width:120px;
+    height:20px;
+    border-radius: 20px;
+    background:
+     repeating-linear-gradient(135deg,blue 0 10px,blue 0 20px) left/0% 100%   no-repeat,
+     repeating-linear-gradient(135deg,#766DF433    0 10px,#766DF41a    0 20px) left/100% 100%;
+    animation:p3 4s infinite;
+  }
+  @keyframes p3 {
+      100% {background-size:100% 100%}
+  }
+  .custom-loader1 {
+    width:120px;
+    height:20px;
+    border-radius: 20px;
+    background:
+     repeating-linear-gradient(135deg,#766DF4 0 10px,#766DF4bf 0 20px) left/0% 100%   no-repeat,
+     repeating-linear-gradient(135deg,#766DF433    0 10px,#766DF41a    0 20px) left/100% 100%;
+    animation:p5 4s infinite;
+  }
+  @keyframes p5 {
+      100% {background-size:30% 100%}
+  }.custom-loader2 {
+    width:120px;
+    height:20px;
+    border-radius: 20px;
+    background:
+     repeating-linear-gradient(135deg,#766DF4 0 10px,#766DF4bf 0 20px) left/0% 100%   no-repeat,
+     repeating-linear-gradient(135deg,#766DF433    0 10px,#766DF41a    0 10px) left/100% 100%;
+    animation:p4 4s infinite;
+  }
+  @keyframes p4 {
+      100% {background-size:52% 100%}
+  }
+  .custom-loader7 {
+    width: 120px;
+    height: 22px;
+    border-radius: 40px;
+    color: #E4E4ED;
+    border: 2px solid;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .custom-loader7::before {
+    content: "";
+    position: absolute;
+    margin: 2px;
+    width: 14px;
+    top: 0;
+    bottom: 0;
+    left: -20px;
+    border-radius: inherit;
+    background: #766DF4;
+    box-shadow: -10px 0 12px 3px #766DF4;
+    clip-path: polygon(0 5%, 100% 0,100% 100%,0 95%,-30px 50%);
+    animation: ct4 2s infinite linear;
+  }
+  
+  @keyframes ct4 {
+    100% {left: calc(100% + 20px)}
+  }
+  .footer {
+    background: #050505;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
