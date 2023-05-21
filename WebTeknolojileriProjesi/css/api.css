@@ -1,0 +1,65 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    color: #fff;
+    background-image: url('img/baku.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.app {
+    background: rgba(0,0,0,.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.header{padding: 50px 20px 30px 20px;
+}
+.header h1{
+    font-size: 50px;
+    color:black;
+}
+
+.header input{
+    
+    width: 100%;
+    padding: 5px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #e2aaaa;
+    font-size: 23px;
+    color: rgb(7, 4, 4);
+}
+
+
+
+.city{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.temp{
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.desc{
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.minmax{
+     font-size: 24px;
+}

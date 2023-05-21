@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <!-- RESPONSIVE NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +37,7 @@
                     <a class="nav-link disabled" href="ilgialanlarim.html">Ilgi Alanlarım</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="iletisim.html">İlestişim</a>
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="giris.html">Giriş</a>
@@ -45,38 +46,33 @@
 
         </div>
     </nav>
+    <!-- SLIDER YAPIMI BOOTSTRAPLA YAPILDI -->
+    <div style="margin-left: 40px; margin-right: 40px;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="img/images.jfif" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/indir (1).jfif" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/indir.jfif" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/indir.jfif" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/indir.jfif" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/indir (1).jfif" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/indir (1).jfif" alt="Second slide">
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/baku.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <a href="#atesgah"><img class="d-block w-100" src="img/kizkulesi.jpg" alt="Second slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/sirvansahlarsarayi.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/saraysirvansah.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/bakusokak.jpg" alt="Third slide">
+                </div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -88,35 +84,89 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    </div>
+    <!-- BAKU GEZILECEK YERLER -->
     <section class="yazilar">
-        <div>
-            <h2>Bakü</h2>
-            <h4>Bakü, Azerbaycan'ın başkenti ve en büyük şehridir. Tarihi zenginlikleri, kültürel mirası, modern
-                mimarisi ve doğal güzellikleri ile turistlerin ilgisini çeken bir yerdir. Bu yazıda, Bakü'de gezilmesi
-                gereken yerler hakkında bilgi vereceğim ve ayrıca şehirde yapılacak diğer etkinliklerden bahsedeceğim.</h4>
-        </div>
-        
-        <div>
-            <h3>İçerişehir Bölgesi:</h3>
-            <h4>Bakü'nün tarihi merkezi olan İçerişehir Bölgesi, UNESCO Dünya Mirası Listesi'nde yer alır. Burada yer
-                alan Darülfünun, Şirvanşahlar Sarayı, Bakü Kalesi ve çok sayıda tarihi yapıyı görebilirsiniz.</h4>
-        </div>
-        <div>
-            <h3>Yanar Dağ:</h3>
-            <h4>Azerbaycan'ın en ünlü turistik yerlerinden biri olan Yanar Dağ, doğal gazın yer altından yeryüzüne
-                sızması sonucu sürekli yanar. Yanardağın alevleri, geceleyin bile görülebilir.</h4>
-        </div>
-        <div>
-            <h2>Mud Volkanları:</h2>
-            <h4> Bakü'nün yakınlarındaki Gobustan Milli Parkı'nda yer alan Mud Volkanları, volkanik gazlar ve sıcak çamurun yer yüzeyine çıkması sonucu oluşmuş doğal bir oluşumdur. Bu eşsiz manzara, doğa tutkunları için görülmesi gereken bir yerdir.
-            </h4>
-        </div>
-        <div>
-            <h2>Bakü Deniz Limanı:</h2>
-            <h4> Bakü Deniz Limanı, modern mimarisi ve doğal güzellikleri ile ünlüdür. Burada yürüyüş yapabilir, yemek yiyebilir ve deniz manzarası eşliğinde dinlenebilirsiniz.
-            </h4>
+        <div class="list">
+            <h2 style="margin-top: 20px; margin-bottom: 20px;">Şehrin gezilecek yerleri listesi</h2>
+            <ul style="margin-left: 100px; margin-right: 100px; font-size: larger;">
+                <li class="list-item" id="icerisehir">
+
+                    <p>İçerişehir (İçərişəhər): Bakü'nün tarihi merkezi olan İçerişehir, UNESCO Dünya Mirası Listesi'nde
+                        yer alır. Dar sokakları, tarihi binaları ve Şirvanşahlar Sarayı gibi önemli yapılarıyla
+                        ziyaretçilere tarihi bir atmosfer sunar.</p>
+                </li>
+                <li class="list-item" id="atesgah">
+
+                    <p>Ateş Tapınağı (Atəşgah): Zoroastrian ve Hindu inançlarına göre kutsal kabul edilen Ateş Tapınağı,
+                        Bakü'nün yaklaşık 30 kilometre dışında yer alır. Mimarisi ve tarihi önemiyle dikkat çeker.</p>
+                </li>
+                <li class="list-item">
+
+                    <p>Bakü Kulesi (Bakı Qalası): Bakü Kulesi, Bakü'nün sembolik yapılarından biridir. Şehri panoramik
+                        olarak gözlemlemek ve tarihi atmosferi hissetmek için tepesine çıkabilirsiniz.</p>
+                </li>
+                <li class="list-item">
+
+                    <p>Yanar Dağ (Yanar Dagh): Bakü'nün doğusunda bulunan Yanar Dağ, yer altından doğal olarak çıkan
+                        doğal bir gaz kaynağına sahiptir. Gazın sürekli yanması nedeniyle "Yanan Dağ" olarak da bilinir.
+                    </p>
+                </li>
+                <li class="list-item">
+
+                    <p>Heydar Aliyev Kültür Merkezi: Bakü'de modern mimarisiyle dikkat çeken bir yapı olan Heydar Aliyev
+                        Kültür Merkezi, konserler, sergiler ve diğer kültürel etkinlikler için önemli bir mekandır.</p>
+                </li>
+                <li class="list-item">
+
+                    <p>Haydar Aliyev Merkezi: Modern bir yapı olan Haydar Aliyev Merkezi, konferanslar, sergiler,
+                        tiyatro gösterileri ve diğer etkinlikler için kullanılan bir komplekstir. Şehrin merkezinde yer
+                        alır ve göz alıcı mimarisiyle dikkat çeker.</p>
+                </li>
+                <li class="list-item">
+
+                    <p>Şirvanşahlar Sarayı: İçerişehir'de bulunan Şirvanşahlar Sarayı, 15. yüzyılda inşa edilmiş tarihi
+                        bir saraydır. İçerisinde müze bulunur ve ziyaretçiler, sarayın tarihi ve mimarisini
+                        keşfedebilir.</p>
+                </li>
+                <li class="list-item">
+
+                    <p>Bulvar: Bakü Bulvarı, Kaspian Denizi kıyısında uzanan geniş bir yürüyüş ve rekreasyon alanıdır.
+                        Burada yürüyüş yapabilir, kafelerde dinlenebilir ve deniz manzarasının keyfini çıkarabilirsiniz.
+                    </p>
+                </li>
+
+            </ul>
+            <h3>Daha Sayamayacağım Nice Yerler</h3>
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
     </section>
+    <!-- FOOTER VE SOSYAL MEDYA -->
+    <footer style="width: 100%">
+        <div class="footer bg-dark">
+            <div class="col">
+                <a href="https://instagram.com/binadargadirov?igshid=OGQ5ZDc2ODk2ZA=="><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdJJREFUSEvFlbFu1EAQhr9/bWgoSENDQ9IjSF4AeANCiYSUSy40SIDyBIQ3SBBUYJIgJEryBuGegAsvwFFTUVGQ3UFrbHT2xRc7p1NWcuPdmW/nn50ZMeelOfvnYgCP7dJyIDwH7gGLZ0Q5Ar443O5b/RnWz05EsGFJT7B3HukM1t/L74/bVgDFzb+ex3lp43Ar45FUAH1LIn2tA+CX0GqU0rAXhd1BJt8rfdQBUc8bDYADw4YOt2BYzMsa2DBTWOlbEiGfC7tRJr/UBLBJ53bsCav7YrRuXIv7e+LnPzmj3roKLBRfbp7J/794PYIJgMcvifS6wx6B7kIw0MDQxwT9DoSJnHUB5Hr2LXkDPKlF9zqTf9q35BC4P77XGmDYlggfwA1AN6sA+5Yp3N60dHsswd0kEnppnLwCdwS6VQPkCZ4JAOQSbVi6K+xZtYC0804nWzNJFB3GwglwWdhDCHcCINzAo08pdsWwo/rLa52D8l073IN6n9m0NBZXfPvxiVbWNMC0QjuMhRY9CS0DsbhOWXacKcT9fM3aKk4jNLeKnrGYkHxvaBWtfk9tdtHDXNt1ecUiku1i4DQ1v/L4j2Lg7LQaOK106HDoYmZyhwueefQvAmDLGe2cIjkAAAAASUVORK5CYII="/></a>
+                <a href="https://discord.gg/AvD48Xet"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAblJREFUSEvdlc1R40AQhb/26L4QASYDZ2A2gnUGuBB3IIL1RrAOQN4SEYAzMBFACCYCzF3j3mrXjBjJAgrzc2Cq5qKZ7tfz3uuW8MlLPjk/3xhgrOxluCHIETAvpFqkdObqRoIMQReF+PlzVG9RZIkd7i8wAvZC4BKwna4+YNvWSpCykOqiDbQFcKrZRNHfu4iv6MU/WU/T2AbAWOk73G1S+VtxVh5/WAqrGNgAyNWVwPFbszYrlj+FVJPnAAz5x3sATKuZ+MMtAHMFcNWR/PEF0M4zQX5G19UU5ZpNQc9SgCha0MZsehDO7z3+qBSWJ9o7F8RcVy/hiaYa4FTdQmGYXpyJTwpo6HM5Ez+Od3N12nLOTSHe+udpVOTqtvj3+P3oiFzdNfArJJrPxBulhL55aFFb65BW2KgiBFwLlGt0IEjtDDtTdNJD7hTsJRuwrte/BrCzoSK9XwcQ3GA0xD6w2TNRkN6G6s3cqV0ksFyDNaYJaaMlzqVHQaax2bpGhYHEbjY7DtLWTzkLAlshsai5x5+bfTs7OX4032dkJt6iPabbooSxPaioyjTxiwA7K9sR+I1/mR9F03++S6MZsmWhswAAAABJRU5ErkJggg=="/></a>
+                <a href="https://www.linkedin.com/in/binadar-gadirov-088406248/" target="_blank "><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARlJREFUSEvlldFtwkAMhj9zfW9GYAPYoHQDOkEjwgBs0gV6Et0gnYB0A0boCDDAYeQjqdIqEUVHkKrem6Xz/8X275ww8JGB9bktYKmuUnhIrKryEh4bjW8VFOo0UTymewlfun2APVDWsDlwfwn4N4A3LyE30ULdGnj+c4DdjxZl165gL7A1UYWpzUDgo47HgAFLQT6Vwxxk0v6AszMwsVcJM0tqrNskLdTlB0K5FqzKeBY6Wgny0sRJgL5WFeoMGN2WBMiVzDHagFjrnryEaOf2kiYBlno3U3RTV/LuJdieDAPomlVyi9oV/GMARI/HReO0aLZY1SnUrHaQBV33ztv0kt9C191em17jwWkP3uC3fTJTW9OVP3gFR+C07RmYnc/PAAAAAElFTkSuQmCC"/></a>
+                <a href="https://github.com/BinadarGadirov" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAfxJREFUSEu1VctR60AQ7JbMGYgAXgSYCIAIgAgwz35ncASYCIAzXsqOAIgAEwEmA8hAnJ93h1ppV17JEjIu2ItUWzPdMz2fJX758Jfx0UjQlfgIwCEgbYDtLCCZApwCmCjq8VdB1hI44CsA2w1ZvgHoK+qHKrtKgp60BgK5+I58BK+HnPXLPgsEq4DPQXmjODsPSQoEPWntC+TJGTxGiAYG0gHkzGn/mn2542zGBEeS2uDE3R2HchUIuhJbPbdSCPByyNnA/ncEGyMiCSML70pZvynqP942J3BFvQ9AxoraRtZ4yrIKcHpHPcoCdacrsb3wadoMDoacTRrRAfyTtbaBeakKLifoSTwRYM9rrWhczy9DAZT8p4pmt5yB1XjdXT4PqfeXg86sigSAok6DDyWSoDA/T1CKIFHUm9/JoCtxrgCAd0WdboDaIgukf0dzvQzJX4nOCdq14k/egXVt+mHrIZCBgbkpz4BHsbMQIzoBWAiksk2tkxu09QjRgYGxI+/b9lFDdzxRBpy2te26jVKWuTwFibJOyFdFoqF3W4hHtnXDqa6bm3mDFOdnYdl5Peu2oweqXooNy847z4uWPiyJAGM/+nUEVVkuSBRq6eSyOm9VOQcZvBPs1K2VxifTEhFMbvnfPpH5cftnu+4lC4Z2mU5f3aYxg9WhM89PCCX5GfRWM0AAAAAASUVORK5CYII="/></a>
+            </div>
+            <div class="row">
+                <ul>
+                    <li><a style="color: chartreuse;" href="index.html">Hakkımda</a></li>
+                    <li><a style="color: chartreuse;" href="ozgecmis.html">Özgeçmiş</a></li>
+                    <li><a style="color: chartreuse;" href="sehrim.html">Şehrim</a></li>
+                    <li><a style="color: chartreuse;" href="mirasim.html">Mirasım</a></li>
+                    <li><a style="color: chartreuse;" href="ilgialanlarim.html">Ilgi alanlarım</a></li>
+                    <li><a style="color: chartreuse;" href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
